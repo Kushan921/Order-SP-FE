@@ -28,7 +28,7 @@ axios.post("http://localhost:8013/orders/add",{
 }
   return (
     <div>
-      
+      <h1>this is add order page</h1>
       <form onSubmit={handlesubmit}>
         <label>
             Name:
